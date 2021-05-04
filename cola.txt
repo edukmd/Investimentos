@@ -1,0 +1,9 @@
+layout = QVBoxLayout(self) -> Cria a caixa de layout
+
+self.edit = QLineEdit("Write my name here..") -> Escrever string
+
+self.button = QPushButton("Show Greetings") -> Botão
+
+self.button.clicked.connect(function) -> callback do botão
+
+table = QTableWidget() -> Criar tabela
